@@ -1,13 +1,11 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 
-    go_say_hello "github.com/DhandyPF/go-say-hello"
+	go_say_hello "github.com/DhandyPF/go-say-hello"
 )
 
 func main() {
-        // variable "result" buat nampung return dari SayHello()
-    result := go_say_hello.SayHello()
-    fmt.Println(result)
+    fmt.Println(go_say_hello.SayHello())
 }
