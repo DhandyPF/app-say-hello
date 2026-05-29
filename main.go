@@ -3,10 +3,9 @@ package main
 import (
 	"fmt"
 
-	go_say_hello "github.com/DhandyPF/go-say-hello"
+	go_say_hello "github.com/ProgrammerZamanNow/go-say-hello/v2"
 )
 
 func main() {
-    fmt.Println(go_say_hello.SayHello())
-    fmt.Println(go_say_hello.IsiNama())
+    fmt.Println(go_say_hello.SayHello("Dhandy"))
 }
